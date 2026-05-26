@@ -1185,7 +1185,12 @@ footer {
 }
 @media (max-width: 768px) {
   .hero-right { display: none !important; }
-  .sobre-portrait { display: block; }
+  .sobre-portrait {
+    display: block;
+    width: min(58vw, 220px);
+    height: min(58vw, 220px);
+    margin: 0 auto 2rem;
+  }
 }
 
 </style>
